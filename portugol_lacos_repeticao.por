@@ -3,26 +3,21 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("1 - Abrir Netfilx 2 - Abrir Amazon Prime 3 - Abrir HBO GO 4 - Sair")
-		inteiro menu = 0
-		escreva("\n" + "Sua opção:")
-		leia(menu)
+		inteiro contador,limite,resultado,tabuada
 
-		se (menu==1) {
-			escreva ("OK!! Abrir Nerflix!!")
-		}
+		contador = 0
+		limite = 10
 
-		se (menu==2) {
-			escreva ("OK!! Abrir Amzon Prime!!")
-		}
+		escreva("Qual tabuada você quer que eu resolva?:")
+		leia(tabuada)
 
-		se (menu==3) {
-			escreva ("OK!! Abrir HBO GO!!")
-		}
+		faca{
 
-		se (menu==4) {
-			escreva ("Saindo do menu......")
-		}
+			resultado = tabuada * contador
+			escreva("tabuada X " + contador + " = " + resultado + "\n")
+			contador ++
+			
+		}enquanto (contador<=limite)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -30,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 376; 
+ * @POSICAO-CURSOR = 165; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

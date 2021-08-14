@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="justify">
-Application in portugol studio as an exercise in decision structure programming logic. Credits for the Essential Programming Logic module from Digital Innovation One.
+Application in Portugol Studio as an exercise in repetition loop programming logic. Credits for the Essential Programming Logic module from Digital Innovation One.
 </h3>
 
 <br>
