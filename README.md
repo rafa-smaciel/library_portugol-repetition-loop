@@ -29,6 +29,6 @@ This project was developed with the following technologies:
 
 <br>
 
----
+----
 
 Made with 💜 by Rafael Maciel
